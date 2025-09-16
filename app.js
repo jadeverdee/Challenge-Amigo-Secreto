@@ -42,12 +42,6 @@ function mostrarAmigos() {
 }
 
 function sortearAmigo() {
-    // Validar que haya amigos disponibles
-    if (escribeAmigos.length === 0) {
-        alert("No hay amigos para sortear. Por favor, agrega nombres primero.");
-        return;
-    }
-
     //Generar un índice aleatorio
     let indiceAleatorio = Math.floor(Math.random() * escribeAmigos.length);
 
